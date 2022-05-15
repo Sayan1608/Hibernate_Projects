@@ -34,6 +34,7 @@ public class ReadingObject {
 		}catch (Exception e) {
 			System.out.println("Error!");
 			e.printStackTrace();
+			tx.rollback();
 		}
 	}
 
