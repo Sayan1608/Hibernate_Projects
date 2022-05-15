@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 import entity.Teacher;
 
-public class TestClass {
+public class SavingObjects {
 
 	public static void main(String[] args) {
 		System.out.println("Connecting to Database...");
